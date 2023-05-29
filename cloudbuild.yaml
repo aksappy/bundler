@@ -3,5 +3,5 @@ steps:
   entrypoint: gradle
   args: ['assemble']
 - name: gcr.io/cloud-builders/docker
-  args: ['build', '-t', 'northamerica-northeast1-docker.pkg.dev/fir-stage-rn/bundler', '.']
-images: ['northamerica-northeast1-docker.pkg.dev/fir-stage-rn/bundler']
+  args: ['build', '-t', 'northamerica-northeast1-docker.pkg.dev/fir-stage-rn/bundler/bundler-app', '.']
+images: ['northamerica-northeast1-docker.pkg.dev/fir-stage-rn/bundler/bundler-app']
